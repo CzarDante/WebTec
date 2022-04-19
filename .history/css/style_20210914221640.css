@@ -1,0 +1,92 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+}
+header{
+    background-color: #e7c053;
+    display: table;
+    width: 101%;
+}
+.Logo{
+    /*top rigth botton left*/
+    margin: 30px 20px 20px 60px;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+.Texto{
+    float: left;
+    width: 100%;
+    line-height: 15px;
+}
+.Menu{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%);
+}
+.Menu ul{
+    margin: 0;
+}
+.Menu li{
+    display: inline-block;
+    padding: 6px 3%;
+}
+.Menu li:hover{
+    font-weight: bold;
+}
+.Menu a{
+    text-decoration: none;
+    color: black;
+}
+section {
+    margin: auto;
+    width: 80%;
+}
+.img_padrao{
+    margin: 10px 0 20px 0;
+    border-radius: 8px;
+    width: 95%;
+    height: 240px;
+}
+.coluna{
+    float: left;
+    width: 33.33%;
+}
+.linha ::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo_parceiro{
+    margin: 10px;
+    border-radius: 8px;
+    width: 130px;
+    height: 55px;
+}
+.logo_contato{
+    margin-top: 10px;
+    width: 30px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0 30px 45%;
+    width: 300px;
+}
+p{
+    text-align: justify;
+    font-size: 18px;
+    margin: 0;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    text-align: center;
+}
+footer a:hover{
+    font-weight: bold;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
