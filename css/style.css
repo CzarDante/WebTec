@@ -53,15 +53,20 @@ section {
     width: 95%;
     height: 240px;
 }
-.coluna{
+.BrasilSemFakeLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .coluna{
     float: left;
     width: 33.33%;
-}
-.linha ::after{
+} */
+/* .linha ::after{
     content: "";
     clear: both;
     display: table;
-}
+} */
 .logo_parceiro{
     margin: 10px;
     border-radius: 8px;
@@ -73,13 +78,17 @@ section {
     width: 30px;
 }
 footer{
-    display: flex;
+    display: relative;
+    bottom: -1;
+    margin: 30px 0 30px 25%;
+    width: 50%;
+    height: 30px;
+    text-align: center;
     justify-content: center;
-    margin: 30px 0 30px 45%;
-    width: 300px;
+    line-height: 10px;
 }
 p{
-    text-align: justify;
+    text-align: center;
     font-size: 18px;
     margin: 0;
 }
@@ -87,7 +96,21 @@ h1{
     font-size: 45px;
 }
 h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 7em;
+}
+h3{
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    font-size: 18px;
+}
+h4{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 20px;
 }
 footer a:hover{
     font-weight: bold;
