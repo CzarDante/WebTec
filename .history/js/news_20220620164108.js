@@ -10,11 +10,11 @@ function chamaHeroku(){
     Http.onload = () => console.log(Http.responseText);
     Http.send(JSON.stringify({"newsText": x.value}))
     
-    Http.onreadystatechange =function(){
-        if(this.readyState==4 && this.status==200){
-            document.getElementById("resultado").innerHTML = Http.responseText
-        }
-    }
+    // Http.onreadystatechange =function(){
+    //     if(this.readyState==4 && this.status==200){
+    //         document.getElementById("resultado").innerHTML = Http.responseText
+    //     }
+    // }
 
 }
   
