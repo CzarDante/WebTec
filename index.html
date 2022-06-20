@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="./img/logo.png">
 	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 	<title>Home</title>
 </head>
 <body>
@@ -20,43 +21,56 @@
 	<div class="Menu">
 		<nav>
 			<ul>
-				<li><a href="about_us.html">SOBRE O PROJETO</a></li>
-				<li><a href="time.html">TIME</a></li>
+				<li><a href="news_test.html">Teste de notícia</a></li>
+				<li><a href="staff.html">Equipe</a></li>
 			</ul>
 		</nav>
 	</div>
-	<div class="col-100">
-		<div class="slide-index">
-			<img src="./img/cliente1.jpg">
-			<img src="./img/cliente2.jpg">
-			<img src="./img/cliente3.jpg">
-		</div>
-	</div>
-
-	<section id="BrasilSemFake">
-		<img src="./img/Vector.png" alt="BrasilSemFakeLogo" class="BrasilSemFakeLogo">
+    	<section id="Serviços">
+			<img src="./img/Vector.png" alt="BrasilSemFakeLogo" class="BrasilSemFakeLogo">
 		
-		<h2>Brasil Sem Fake</h2>
-		<p>Para verificar se uma notícia é falsa ou verdadeira, basta 
-		<b>copiar e colar abaixo, e então apertar enviar.</b></p> 
-		<p>Para ler mais sobre o projeto, basta  
-		<a href="about_us.html">clicar aqui.</a></p>
-		<div>
-			<textarea placeholder="Cole a notícia aqui." id="noticia" style="width: 550px; height: 50px"></textarea>
+			<h2>Sobre o Projeto</h2>
+			<hr>
+			<p>O combate a desinformacão vem se tornando um 
+			tópico de extrema importância. No contexto atual, a disseminacão
+			de notícias falsas ocorre em grande velocidade, onde redes
+			sociais contribuem a este rapido alastramento. Muitas vezes estas 
+			notícias mimetizam a forma como notícias sao tradicionalmente 
+			escritas, tornando o processo de detecção arduo e extenuante. 
+			Levando em consideração a dificuldade em categorizar tais 
+			notícias como fidedignas ou nao de forma manual, o projeto Brasil 
+			Sem Fake foi criado, que utiliza técnicas de processamento de 
+			linguagem natural a fim de classificar notícias de forma autônoma.</p>
+			<p>Além deste site, foi desenvolvido também um aplicativo para android
+			com funcionamento similar, que possui as mesmas funcionalidades e 
+			a adição de outras, como a possibilidade de criar uma conta.</p>
+			
+			<p>Para ler mais sobre o funcionamento do algorítmo classificador,
+			recomendamos a leitura do artígo 
+			<a href="https://github.com/Alan-MN/BrasilSemFake/blob/master/Documentation/Artigo/Brasil%20Sem%20Fake.pdf">Brasil Sem Fake</a>
+			que contem, de forma detalhada, todo o processo de preparação do texto, assim como os algoritmos utilizados e resultados obtidos.Abaixo temos algumas telas do aplicativo desenvolvido:</p>
+		</section>
+		<div class="slider_index">
+			<div>
+				<img src="./img/first_screen_dark_mode.png">
+				<p>primeira tela do app</p>
+			</div>
+			<div>
+				<img src="./img/login_dark_mode.png">
+				<p>tela de login do app</p>
+			</div>
+			<div>
+				<img src="./img/register_dark_mode.png">
+				<p>tela de registro do app</p>
+			</div>
+			<div>
+				<img src="./img/forgot_password_dark_mode.png">
+				<p>tela de esqueci a senha</p>
+			</div>
 		</div>
-		<div>
-			<button type="button">Enviar</button>
-		</div>
-	</section>
-
-
-
-	<footer>
-		<p>Developed by <a href="https://github.com/CzarDante" target="_blank">CzarDante</a>, <a href="https://github.com/Alan-MN" target="_blank">Alan-MN</a>, <a href="https://github.com/GabrielAttano" target="_blank">GabrielAttano</a> </p> 
-	</footer>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script type="text/javascript" src="./js/main.js"></script>
-</body>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+		<script type="text/javascript" src="./js/slick.js"></script>
+    </body>
 </html>

@@ -1,1 +1,0 @@
-$('.slide-index').slick();

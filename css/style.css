@@ -66,30 +66,32 @@ section {
     width: 95%;
     height: 240px;
 }
+.slider_index{
+    margin: auto;
+    width: 20%;
+}
+.slick-dots li{
+    display: inline-block;
+    padding: 5px;
+}
+.slick-dots li button{
+    font-size: 0px;
+    border:  3px solid #ffa000;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+li.slick-active button{
+    background: black;
+}
 .BrasilSemFakeLogo{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-/* .coluna{
-    float: left;
-    width: 33.33%;
-} */
-/* .linha ::after{
-    content: "";
-    clear: both;
-    display: table;
-} */
-.logo_parceiro{
-    margin: 10px;
-    border-radius: 8px;
-    width: 130px;
-    height: 55px;
-}
-.logo_contato{
-    margin-top: 10px;
-    width: 30px;
-}
+
 footer{
     display: relative;
     bottom: -1;
@@ -101,7 +103,7 @@ footer{
     line-height: 10px;
 }
 p{
-    text-align: center;
+    text-align: justify; 
     font-size: 18px;
     margin: 0;
 }
