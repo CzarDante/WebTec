@@ -35,32 +35,26 @@
 		<b>copiar e colar abaixo, e então apertar enviar.</b></p> 
 		<p>Para ler mais sobre o projeto, basta  
 		<a href="about_us.html">clicar aqui.</a></p>
-		<!-- <form>
-			<p><label for="news">informe a notícia:</label></p>
-			<textarea id="noticia" name="noticia" rows="10" cols="70" placeholder="Digite a notícia aqui"></textarea>
-			<br>
+		<form>
+			<label for="news">Insira a notícia</label><br>
+			<input type="text" id="noticia" name="noticia"><br>
 		</form>
 		<div>
 			<button type="button" onclick="chamaHeroku()">Enviar</button>
-		</div> -->
-		<div class="news-result"></div>
+		</div>
+		
+		<p id="resultado"></p>
 	</section>
-	
+
+
+
 	<footer>
 		<p>Developed by <a href="https://github.com/CzarDante" target="_blank">CzarDante</a>, <a href="https://github.com/Alan-MN" target="_blank">Alan-MN</a>, <a href="https://github.com/GabrielAttano" target="_blank">GabrielAttano</a> </p> 
 	</footer>
-	
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
-	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 	<script type="text/javascript" src="./js/slick.js"></script>
 	<script type="text/javascript" src="./js/news.js"></script>
-	<script type="text/babel" src="./js/components/newsResult.js"></script>
-	<script type="text/babel">
-		ReactDOM.render(<NewsResult />, document.querySelector('.news-result'));
-	</script>
 </body>
 </html>
